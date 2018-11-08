@@ -1,0 +1,16 @@
+- name: Home
+  link: /
+  new_window: false
+  highlight: false
+- name: Order
+  link: /products/
+  new_window: false
+  highlight: true
+- name: Our Story
+  link: /about/
+  new_window: false
+  highlight: false
+- name: Contact
+  link: /contact/
+  new_window: false
+  highlight: false
