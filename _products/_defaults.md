@@ -4,7 +4,7 @@ image_path:
 product_categories:
 price:
 sku:
-description:
+description_markdown:
 sizes:
   - name:
     price: 
