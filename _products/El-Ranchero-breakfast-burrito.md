@@ -1,7 +1,7 @@
 ---
 name: El Ranchero Breakfast Burrito
 image_path: /uploads/placeholder.jpg
-description: >-
+description_markdown: >-
   Breakfast burrito with potatoes, egg, bell pepper, cheese, asada, and salsa
   ranchera.
 product_categories:
