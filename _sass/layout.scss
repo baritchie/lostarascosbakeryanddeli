@@ -55,22 +55,18 @@
 
 .company-name {
 	display: inline-block;
-    width: 70%;
-    max-height: 139px;
-    @media #{$mid-point} {
-        width: 30%;
-    }
 	a {
 		display: block;
 	}
 
 	img {
-	   display: inline-block;
+	   display: block;
 	   background-color: #fff;
 	   border-radius: 5px;
 	   padding: 20px;
-	   width: 382px;
-	   height: 98px;
+	   width: 100%;
+	   max-width: 382px;
+	   height: auto;
 	}
 }
 
