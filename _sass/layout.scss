@@ -54,7 +54,6 @@
 }
 
 .company-name {
-	display: inline-block;
 	a {
 		display: block;
 	}
@@ -64,8 +63,7 @@
 	   background-color: #fff;
 	   border-radius: 5px;
 	   padding: 20px;
-	   width: 100%;
-	   max-width: 382px;
+	   max-width: 100%;
 	   height: auto;
 	}
 }
