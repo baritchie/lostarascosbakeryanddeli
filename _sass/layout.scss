@@ -112,26 +112,9 @@
     }
 }
 
-.frontpage_info_left {
-    padding: 25px 15px 15px 15px;
-    display: block;
+.frontpage_info {
     text-align: center;
     
-    @media #{$mid-point} {
-        float: left;
-        width: 60%;
-    }
-}
-
-.frontpage_info_right {
-    padding: 25px 15px 15px 15px;
-    display: block;
-    text-align: center;
-    
-    @media #{$mid-point} {
-        float: right;
-        width: 30%;
-    }
 }
 
 .frontpage_image {
