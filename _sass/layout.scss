@@ -62,13 +62,15 @@
 	}
 
 	img {
-	    
-	    display: inline-block;
-	    background-color: #fff;
-	    border-radius: 5px;
-	    padding: 20px;
-	    max-width: 75%;
-	    height: 98px;
+	    @media #($below-mid-point) {
+	        display: inline-block;
+	        background-color: #fff;
+	        border-radius: 5px;
+	        padding: 20px;
+	        max-width: 75%;
+	        height: 98px;
+	    }
+
 	    
 	    @media #{$mid-point} {
 		    display: inline-block;
