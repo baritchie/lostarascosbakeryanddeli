@@ -134,38 +134,16 @@
 .frontpage_image {
     padding: 15px;
     display: flex;
-    clear: right;
-    text-align: center;
+    flex: 1 1 50%;
     img {
         margin: auto;
-    }
-    @media #{$mid-point} {
-        display: flex;
-        float: right;
-        width: 45%;           
     }
 }
 
 .frontpage_content_left {
-    padding: 25px 15px 15px 15px;
-    display: block;
+    display: flex;
+    flex: 1 1 50%;
     text-align: center;
-    
-    @media #{$mid-point} {
-        float: left;
-        width: 45%;
-    }
-}
-
-.frontpage_content_right {
-    padding: 25px 15px 15px 15px;
-    display: block;
-    text-align: center;
-    
-    @media #{$mid-point} {
-        float: right;
-        width: 45%;
-    }
 }
 
 .frontpage_clear {
