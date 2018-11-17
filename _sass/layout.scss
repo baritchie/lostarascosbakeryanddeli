@@ -69,16 +69,8 @@
 	   background-color: #fff;
 	   border-radius: 5px;
 	   padding: 20px;
+	   width: 382px;
 	   height: 98px;
-	    
-	    @media #{$mid-point} {
-		    display: inline-block;
-            background-color: #fff;
-	        border-radius: 5px;
-	        padding: 20px;
-	        width: 382px;
-	        height: 98px;
-	    }  
 	}
 }
 
