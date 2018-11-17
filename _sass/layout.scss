@@ -55,6 +55,10 @@
 
 .company-name {
     display: inline-block;
+    max-width: 70%;
+	@media #{$mid-point} {
+	    max-width: 30%;
+	}
 	a {
 		display: block;
 	}
@@ -64,10 +68,6 @@
 	   background-color: #fff;
 	   border-radius: 5px;
 	   padding: 20px;
-	   max-width: 70%;
-	   @media #{$mid-point} {
-	       max-width: 30%;
-	   }
 	   width: auto;
 	   height: auto;
 	}
