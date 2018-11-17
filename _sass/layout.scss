@@ -131,18 +131,15 @@
     border-right: 3px solid #adadad;
 }
 
-.frontpage_image {
-    padding: 15px;
-    display: flex;
-    flex: 1 1 50%;
-    img {
-        margin: auto;
-    }
-}
-
 .frontpage_content {
     display: flex;
-    flex: 1 1 50%;
+    flex-wrap: wrap;
+}
+
+.frontpage_content div {
+    flex: 1 1 300px;
+    padding: 40px;
+    margin: auto;
     text-align: center;
 }
 
