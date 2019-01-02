@@ -5,7 +5,6 @@ subtitle: Delicious Smoothies, Licuados, and More
 permalink: /products/drinks/
 ---
 <ul class="product-list">
-    {% include_relative subcategories/hot_drinks.html %}
     {% for product in site.products %}
             {% if product.product_categories contains "Drinks" %}
                 <li>
