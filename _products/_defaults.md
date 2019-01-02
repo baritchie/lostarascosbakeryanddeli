@@ -1,6 +1,6 @@
 ---
 name:
-image_path: 
+image_path: /uploads/placeholder.jpg
 product_categories:
   -
 price:
