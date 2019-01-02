@@ -12,6 +12,12 @@ sizes:
   - name: 16oz
     price: '2.75'
 options:
-  - name:
+  - name: Arroz con Leche
     price:
+  - name: Avena de Leche
+    price:
+  - name: Champurrado
+    price:
+  - name: Cafe de Olla
+    price: '1.75'
 ---
