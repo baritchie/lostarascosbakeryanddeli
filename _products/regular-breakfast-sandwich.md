@@ -2,15 +2,17 @@
 name: Regular Breakfast Sandwich
 image_path:
 product_categories:
-price:
+  - Breakfast
+  - Options
+price: 5.50
 sku:
 description_markdown: >-
   Breakfast sandwich with thousand island, tomato, cheese, egg, and your choice
   of meat.
-sizes:
-  - name:
-    price:
 options:
-  - name:
-    price:
+  - name: Ham
+  - name: Turkey
+  - name: Bacon
+  - name: Chorizo
+  - name: Sausage
 ---
