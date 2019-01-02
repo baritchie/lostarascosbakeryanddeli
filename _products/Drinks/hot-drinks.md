@@ -3,9 +3,9 @@ name: Hot Drinks
 image_path: /uploads/placeholder.jpg
 product_categories:
   -
-price: '1.65'
+price: '1.75'
 sku: Hot Drinks
-description_markdown: Our selection of hot beverages.
+description_markdown: Our selection of regular hot beverages.
 sizes:
   - name: 12oz
     price: '1.75'
