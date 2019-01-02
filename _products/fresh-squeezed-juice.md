@@ -5,12 +5,16 @@ product_categories:
   - Drinks
   - Options
   - Sizes
-price:
-sku:
-description_markdown:
+price: '4.50'
+sku: Fresh Squeezed Juice
+description_markdown: Choose your juice type and size.
 sizes:
-  - name:
-    price:
+  - name: 12oz
+    price: '4.50'
+  - name: 16oz
+    price: '4.75'
+  - name: 20oz
+    price: '5.00'
 options:
   - name:
     price:
