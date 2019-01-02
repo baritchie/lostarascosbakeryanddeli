@@ -18,11 +18,11 @@ layout: default
 					{{ page.description_markdown | markdownify }}
 					
 					<div class="button">
-					    {% if product.category contains "Options" and product.category contains "Sizes" %} 
+					    {% if product.product_categories contains "Options" and product.product_categories contains "Sizes" %} 
 					        {% include snipcart-button-both.html product=page %}
-					    {% elsif product.category contains "Options" %}
+					    {% elsif product.product_categories category contains "Options" %}
 					        {% include snipcart-button-options.html product=page %}
-					    {% elsif product.category contains "Sizes" %}
+					    {% elsif product.product_categories contains "Sizes" %}
 					        {% include snipcart-button-sizes.html product=page %}
 					    {% else %}
 					        {% include snipcart-button.html product=page %}
