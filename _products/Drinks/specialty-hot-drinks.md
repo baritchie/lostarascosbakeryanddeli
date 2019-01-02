@@ -20,6 +20,4 @@ options:
     price:
   - name: Champurrado
     price:
-  - name: Cafe de Olla
-    price: '1.75'
 ---
