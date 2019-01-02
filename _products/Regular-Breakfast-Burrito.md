@@ -6,11 +6,9 @@ description_markdown: >-
   choice of meat.
 product_categories:
   - Breakfast
+  - Options
 price: '6.55'
 sku: Regular Breakfast Burrito
-sizes:
-  - name:
-    price:
 options:
   - name: Ham
     price: '6.55'
