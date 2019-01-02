@@ -7,8 +7,10 @@ price: '2.25'
 sku: Specialty Hot Drinks
 description_markdown:
 sizes:
-  - name:
-    price:
+  - name: 12oz
+    price: '2.25'
+  - name: 16oz
+    price: '2.75'
 options:
   - name:
     price:
