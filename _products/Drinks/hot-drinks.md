@@ -12,6 +12,10 @@ sizes:
   - name: 16oz
     price: '2.00'
 options:
-  - name:
-    price:
+  - name: Coffee
+    price: '1.75'
+  - name: Vanilla Capuccino
+    price: '1.75'
+  - name: Hot Chocolate
+    price: '1.75'
 ---
