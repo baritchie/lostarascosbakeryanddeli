@@ -3,6 +3,8 @@ name: Iced Coffee
 image_path: /uploads/placeholder.jpg
 product_categories:
   - Drinks
+  - Options
+  - Sizes
 price: '1.75'
 sku: Iced Coffee
 description_markdown: 'Your choice of regular, vanilla, or hazelnut.'
