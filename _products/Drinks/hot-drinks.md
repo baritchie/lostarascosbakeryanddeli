@@ -3,6 +3,8 @@ name: Hot Drinks
 image_path: /uploads/placeholder.jpg
 product_categories:
   - Drinks
+  - Options
+  - Sizes
 price: '1.75'
 sku: Hot Drinks
 description_markdown: Our selection of regular hot beverages.
@@ -15,7 +17,7 @@ options:
   - name: Coffee
     price:
   - name: Vanilla Capuccino
-    price: 
+    price:
   - name: Hot Chocolate
-    price: 
+    price:
 ---
