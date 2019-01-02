@@ -16,6 +16,18 @@ sizes:
   - name: 20oz
     price: '5.00'
 options:
-  - name:
+  - name: Beet
     price:
+  - name: Carrot
+    price:
+  - name: Celery
+    price:
+  - name: Orange
+    price:
+  - name: Carrot/Orange
+    price:
+  - name: El Vampiro
+    price: '4.75'
+  - name: El Jugo Verde
+    price: '4.75'
 ---
