@@ -1,6 +1,6 @@
 ---
 name: Regular Breakfast Sandwich
-image_path:
+image_path: /uploads/placeholder.jpg
 product_categories:
   - Breakfast
   - Options
