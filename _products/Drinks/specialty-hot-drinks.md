@@ -2,7 +2,7 @@
 name: Specialty Hot Drinks
 image_path: /uploads/placeholder.jpg
 product_categories:
-  -
+  - Drinks
 price:
 sku:
 description_markdown:
