@@ -3,6 +3,8 @@ name: Ice Blended Coffee
 image_path: /uploads/placeholder.jpg
 product_categories:
   - Drinks
+  - Options
+  - Sizes
 price: '4.25'
 sku:
 description_markdown: 'Your choice of mocha, hazelnut, or vanilla ice blended coffee.'
