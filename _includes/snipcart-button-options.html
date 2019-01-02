@@ -1,10 +1,3 @@
-<!-- {% assign option_name = "" %}
-{% for option in include.product.options %}
-    {% assign option_name = option_name | append: '|' | append: option.name %}
-{% endfor %}
-{% assign option_name = option_name | remove_first: '|' %} -->
-
-
 {% assign option_name = "" %}
 {% for option in include.product.options %}
     {% assign price_diff = option.price | minus: include.product.price %}
@@ -25,6 +18,6 @@
 	data-item-url="{{ include.product.url }}"
 	data-item-price="{{ include.product.price }}"
     data-item-custom1-name="Options"
-    data-item-custom1-options="{{ option_name }}"
+    data-item-custom1-options="{{ option_name }}">
 	{% if include.text %}{{ include.text }}{% else %}Choose Options{% endif %}
 </button>
