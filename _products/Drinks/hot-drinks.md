@@ -13,9 +13,9 @@ sizes:
     price: '2.00'
 options:
   - name: Coffee
-    price: '1.75'
+    price:
   - name: Vanilla Capuccino
-    price: '1.75'
+    price: 
   - name: Hot Chocolate
-    price: '1.75'
+    price: 
 ---
