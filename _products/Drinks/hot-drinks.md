@@ -20,4 +20,6 @@ options:
     price:
   - name: Hot Chocolate
     price:
+  - name: Cafe de Olla
+    price:
 ---
