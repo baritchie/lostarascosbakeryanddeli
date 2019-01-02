@@ -8,12 +8,6 @@ product_categories:
   - Breakfast
 price: '7.00'
 sku: El Ranchero Breakfast Burrito
-sizes:
-  - name:
-    price:
-options:
-  - name:
-    price:
 _options:
   image_path:
     width: '340'
