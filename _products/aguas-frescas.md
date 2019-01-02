@@ -3,6 +3,7 @@ name: Aguas Frescas
 image_path: /uploads/placeholder.jpg
 product_categories:
   - Drinks
+  - Options
 price: '2.75'
 sku: Aguas Frescas
 description_markdown: Freshly made flavored waters.&nbsp;
