@@ -25,3 +25,4 @@ fields:
   default: "/products/categoryname/"
 pages:
 - product_cat_pages/tortas.html
+- product_cat_pages/tortas.html
