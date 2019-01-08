@@ -1,6 +1,9 @@
+---
 - name: Breakfast
-  image_path: /uploads/26e35572a7a86c86fa18093679fbd4e1-2.jpg
+  image_path: "/uploads/26e35572a7a86c86fa18093679fbd4e1-2.jpg"
 - name: Drinks
-  image_path: /uploads/drink.jpg
+  image_path: "/uploads/drink.jpg"
 - name: Fruit Bowls
-  image_path: /uploads/fruitbowl.jpg
+  image_path: "/uploads/fruitbowl.jpg"
+- name: Tortas
+  image_path: ''
