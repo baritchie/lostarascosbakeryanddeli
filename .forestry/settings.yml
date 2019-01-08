@@ -5,16 +5,11 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: product_cats
+  path: product_cat_pages
   label: Product Categories
-  create: all
+  create: documents
   match: "**/*"
-- type: jekyll-pages
-  label: Pages
-  create: all
-- type: jekyll-posts
-  label: Posts
-  create: all
+  new_doc_ext: ".html"
 - type: directory
   path: _products
   label: Products
