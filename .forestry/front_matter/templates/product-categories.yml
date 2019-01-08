@@ -22,6 +22,6 @@ fields:
   label: Permalink
   type: text
   hidden: false
-  default: ''
+  default: "/products/categoryname/"
 pages:
 - product_cat_pages/tortas.html
