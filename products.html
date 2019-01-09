@@ -11,12 +11,12 @@ subtitle: 'Order Now, Pick-Up in Store!'
 			<ul class="product-list">
 				{% for category in site.data.product_categories %}
 				    <li>
-				        <a href="{{ site.url }}products/{{ category.name | slugify }}">
+				        <a href="{{ site.url }}/products/{{ category.name | slugify }}">
 				            <img class="fadeload" src="{{ category.image_path }}" />
 				        </a>
 				        <div class="product-details">
 				            <h4>
-				                <a href="{{ site.url }}products/{{ category.name | slugify }}">{{ category.name }}</a>
+				                <a href="{{ site.url }}/products/{{ category.name | slugify }}">{{ category.name }}</a>
 				            </h4>
 				        </div>
 				    </li>
