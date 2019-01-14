@@ -38,7 +38,6 @@ jekyll-archives:
   enabled:
   - categories
 plugins:
-- jekyll-menus
 - jekyll-sitemap
 - jekyll-seo-tag
 exclude:
