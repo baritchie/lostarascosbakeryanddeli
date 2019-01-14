@@ -1,17 +1,17 @@
 ---
 title: Los Tarascos Bakery and Deli
-url: "https://lostarascosbakeryanddeli.com/"
-baseurl:
-google_analytics_key:
-google_maps_javascript_api_key:
+url: https://lostarascosbakeryanddeli.com/
+baseurl: 
+google_analytics_key: 
+google_maps_javascript_api_key: 
 snipcart_key: NDAzMzM2MDctODk3MS00ZmE5LThiYTctMDg2ODExZmEwMTg2NjM2NzY1NjA2NzUyNzU5NjE2
 logo: "/siteicon.png"
 description: Authentic Mexican Bakery and Deli
 author:
   name: Benjamin Ritchie
   email: ben@ritchiewp.com
-  twitter:
-  phone:
+  twitter: 
+  phone: 
 timezone: America/Los_Angeles
 collections:
   staff_members:
@@ -38,6 +38,7 @@ jekyll-archives:
   enabled:
   - categories
 plugins:
+- jekyll-menus
 - jekyll-sitemap
 - jekyll-seo-tag
 exclude:
