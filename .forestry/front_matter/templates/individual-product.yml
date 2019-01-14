@@ -60,6 +60,3 @@ fields:
     default: ''
   hidden: false
   default: ''
-pages:
-- _products/fruit_bowls/pico-de-gallo.md
-- _products/fruit_bowls/fruit-bowl.md
