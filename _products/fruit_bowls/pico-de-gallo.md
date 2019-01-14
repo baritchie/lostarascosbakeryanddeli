@@ -1,6 +1,6 @@
 ---
 name: Pico de Gallo
-image_path: ''
+image_path: "/uploads/placeholder.jpg"
 product_categories:
 - Fruit Bowls
 price: 4.75
