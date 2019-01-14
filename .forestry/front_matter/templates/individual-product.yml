@@ -60,3 +60,5 @@ fields:
     default: ''
   hidden: false
   default: ''
+pages:
+- _products/fruit_bowls/fruit-bowl.html
