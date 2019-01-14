@@ -1,6 +1,6 @@
 ---
 label: Individual Product
-hide_body: false
+hide_body: true
 is_partial: false
 fields:
 - name: name
@@ -12,7 +12,7 @@ fields:
   label: Image path
   type: file
   hidden: false
-  default: ''
+  default: "/uploads/placeholder.jpg"
 - name: product_categories
   label: Product categories
   type: list
