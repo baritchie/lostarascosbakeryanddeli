@@ -16,7 +16,7 @@ sections:
   label: Pages
   create: all
 - type: directory
-  path: product_cat_pages
+  path: product-cat-pages
   label: Product Categories
   create: documents
   match: "**/*"
