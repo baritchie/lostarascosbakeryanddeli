@@ -12,6 +12,5 @@ sizes:
   price: '5.50'
 options: []
 date: 2019-01-14 07:52:44 +0000
-published: false
 
 ---
