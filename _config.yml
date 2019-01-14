@@ -45,6 +45,7 @@ exclude:
 - Gemfile.lock
 - README.md
 - LICENCE
+- .DS_Store
 _options:
   image_path:
     width: 340
