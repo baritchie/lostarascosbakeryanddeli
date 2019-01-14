@@ -11,7 +11,6 @@ sizes:
 - name: Large
   price: 5.75
 options: []
-date: 2019-01-13 23:53:29 -0800
-published: false
+date: 2019-01-14 07:53:29 +0000
 
 ---
