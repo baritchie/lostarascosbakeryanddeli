@@ -1,6 +1,6 @@
 ---
 name: Fruit Bowl
-image_path: ''
+image_path: "/uploads/placeholder.jpg"
 product_categories:
 - Fruit Bowls
 price: '4.50'
@@ -11,7 +11,7 @@ sizes:
 - name: Large
   price: '5.50'
 options: []
-date: 2019-01-13 23:52:44 -0800
+date: 2019-01-14 07:52:44 +0000
 published: false
 
 ---
