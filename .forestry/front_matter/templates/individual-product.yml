@@ -61,4 +61,4 @@ fields:
   hidden: false
   default: ''
 pages:
-- _products/fruit_bowls/fruit-bowl.html
+- _products/fruit_bowls/fruit-bowl.md
