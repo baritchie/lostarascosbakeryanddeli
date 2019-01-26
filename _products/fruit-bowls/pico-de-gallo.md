@@ -5,7 +5,7 @@ product_categories:
 - Sizes
 - Fruit Bowls
 price: 4.75
-description_markdown: Pico de Gallo
+description_markdown: This is some Pico de Gallo
 sizes:
 - name: Small
   price: 4.75
