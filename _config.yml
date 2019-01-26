@@ -9,7 +9,7 @@ logo: "/siteicon.png"
 description: Authentic Mexican Bakery and Deli
 author:
   name: Benjamin Ritchie
-  email: ben@ritchiewp.com
+  email: benaritchie18@gmail.com
   twitter: 
   phone: 
 timezone: America/Los_Angeles
@@ -46,12 +46,6 @@ exclude:
 - README.md
 - LICENCE
 - .DS_Store
-_options:
-  image_path:
-    width: 340
-    height: 340
-    resize_style: cover
-    mime_type: image/jpeg
 social_icons:
 - Email
 - Facebook
