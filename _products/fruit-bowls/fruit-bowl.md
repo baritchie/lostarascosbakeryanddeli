@@ -5,6 +5,7 @@ product_categories:
 - Sizes
 - Fruit Bowls
 price: '4.50'
+sku: Fruit Bowl
 description_markdown: Assortment of fresh fruit.
 sizes:
 - name: Small
@@ -12,6 +13,4 @@ sizes:
 - name: Large
   price: '5.50'
 options: []
-date: 2019-01-14 07:52:44 +0000
-
 ---

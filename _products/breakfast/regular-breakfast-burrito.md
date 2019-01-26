@@ -26,10 +26,4 @@ options:
     price: '6.55'
   - name: Chile Verde
     price: '6.55'
-_options:
-  image_path:
-    width: '340'
-    height: '340'
-    resize_style: cover
-    mime_type: image/jpeg
 ---
