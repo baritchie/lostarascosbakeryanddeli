@@ -2,7 +2,7 @@
 image_path: "/uploads/placeholder.jpg"
 name: Bionico
 product_categories:
-- Size
+- Sizes
 - Fruit Bowls
 price: '5.50'
 description_markdown: Bionico Stuff
