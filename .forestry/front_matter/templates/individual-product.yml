@@ -61,4 +61,5 @@ fields:
   hidden: false
   default: ''
 pages:
+- _products/fruit-bowls/pico-de-gallo.md
 - _products/fruit-bowls/bionico.md
