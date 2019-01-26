@@ -2,6 +2,7 @@
 image_path: "/uploads/placeholder.jpg"
 name: Bionico
 product_categories:
+- Size
 - Fruit Bowls
 price: '5.50'
 description_markdown: Bionico Stuff
@@ -11,6 +12,6 @@ sizes:
 - name: Large
   price: 6.75
 options: []
-date: 2019-01-14 00:14:27 -0800
+date: 2019-01-14 08:14:27 +0000
 
 ---
