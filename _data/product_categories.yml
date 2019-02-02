@@ -6,4 +6,4 @@
 - name: Fruit Bowls
   image_path: "/uploads/fruitbowl.jpg"
 - name: Tortas
-  image_path: ''
+  image_path: "/uploads/placeholder.jpg"

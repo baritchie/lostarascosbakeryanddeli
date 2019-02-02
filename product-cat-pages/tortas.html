@@ -5,6 +5,16 @@ subtitle: Fresh and warm tortas!
 permalink: "/products/tortas/"
 ---
 <ul class="product-list">
+			<li>
+				<a href="{{ site.url }}/products/tortas/specialty-tortas">
+					<img class="fadeload" src="/uploads/placeholder.jpg" />
+				</a>
+				<div class="product-details">
+					<h4>
+						<a href="{{ site.url }}/products/tortas/specialty-tortas">Specialty Tortas</a>
+					</h4>
+				</div>
+			</li>
     {% for product in site.products %}
             {% if product.product_categories contains "Tortas" %}
                 <li>

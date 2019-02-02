@@ -7,16 +7,12 @@ product_categories:
   - Sizes
 price: '4.50'
 sku: Fresh Squeezed Juice
-description_markdown: >-
+description_markdown: |
   Choose your juice type and size.
 
-
-  **El Jugo Verde**&nbsp;➔ Fresh squeezed juice of celery, pineapple, cucumber,
-  cactus, parsley, and orange juice.
-
-
-  **El Vampiro**&nbsp;➔ Fresh squeezed juice of beets, celery, and carrot mixed
-  with orange juice and lime.
+  **El Jugo Verde** ➔ Fresh squeezed juice of celery, pineapple, cucumber, cactus, parsley, and orange juice.
+  
+  **El Vampiro** ➔ Fresh squeezed juice of beets, celery, and carrot mixed with orange juice and lime.
 sizes:
   - name: 12oz
     price: '4.50'
