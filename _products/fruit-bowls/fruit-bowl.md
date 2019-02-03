@@ -12,5 +12,4 @@ sizes:
   price: '4.50'
 - name: Large
   price: '5.50'
-options: []
 ---
