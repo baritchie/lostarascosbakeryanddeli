@@ -6,8 +6,9 @@ product_categories:
   - Options
   - Sizes
 price: '4.25'
-sku:
-description_markdown: 'Your choice of mocha, hazelnut, or vanilla ice blended coffee.'
+sku: Ice Blended Coffee
+description_markdown: |
+  Your choice of mocha, hazelnut, or vanilla ice blended coffee.
 sizes:
   - name: 12oz
     price: '4.25'

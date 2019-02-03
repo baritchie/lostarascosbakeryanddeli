@@ -7,7 +7,8 @@ product_categories:
   - Sizes
 price: '1.75'
 sku: Iced Coffee
-description_markdown: 'Your choice of regular, vanilla, or hazelnut.'
+description_markdown: |
+  Your choice of regular, vanilla, or hazelnut.
 sizes:
   - name: 12oz
     price: '1.75'
