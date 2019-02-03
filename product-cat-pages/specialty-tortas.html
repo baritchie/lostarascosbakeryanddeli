@@ -4,20 +4,27 @@ hero: Our Specialty Tortas
 subtitle: Fresh and warm tortas!
 permalink: "/products/tortas/specialty-tortas"
 ---
-<ul class="product-list">
+
+<ul class="listproduct">
     {% for product in site.products %}
             {% if product.product_categories contains "Specialty Tortas" %}
                 <li>
-                    <a href="{{ product.url }}">
-				        <img class="editable" src="{{ product.image_path }}">
-				    </a>
-                    <div class="product-details">
-            			<h4><a href="{{ product.url }}">{{ product.name }}</a></h4>
+            			<h3>{{ product.name }}</h3>
             			<div class="product-description">
-            				{{ product.description_markdown | truncate: 45 | markdownify }}
+            				{{ product.description_markdown | markdownify }}
             			</div>
-            		    <p>${{ product.price }}</p>
-            		</div>
+						<p>${{ product.price }}</p>
+						<div class="button">
+							<button class="snipcart-add-item"
+								data-item-name="{{ product.name }}"
+								data-item-id="{{ product.sku }}"
+								data-item-image="{{ product.image_path }}"
+								data-item-description="{{ product.description }}"
+								data-item-url="{{ product.url }}"
+								data-item-price="{{ product.price }}">
+								Add to Cart
+							</button>
+						</div>
             	</li>
             {% endif %}
     {% endfor %}
