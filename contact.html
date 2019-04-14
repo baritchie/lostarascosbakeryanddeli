@@ -3,11 +3,6 @@ title: Contact
 description: Get in touch
 email: fur@example.com
 hero: Get in touch
-map:
-  latitude: 34.420391
-  longitude: -119.691628
-  address: 'Santa Barbara, CA, USA'
-  zoom: 17
 ---
 
 <div class="contact-box">
@@ -29,33 +24,34 @@ map:
 
 	<div class="contact-details">
 		<div class="map" id="map"></div>
-</div>
+	</div>
 
-<script type="text/javascript">
-	window.mapData = {{ page.map | jsonify }};
-
-	function initMap() {
-		var myOptions = {
-			scrollwheel: false,
-			draggable: false,
-			panControl: false,
-			disableDefaultUI: true,
-			styles: [{"featureType":"administrative","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#fcfcfc"}]},{"featureType":"poi","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#fcfcfc"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#dddddd"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#dddddd"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#eeeeee"}]},{"featureType":"water","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#dddddd"}]}],
-			zoom: window.mapData.zoom,
-			maxZoom: window.mapData.zoom,
-			minZoom: window.mapData.zoom,
-			center: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude),
-			mapTypeId: google.maps.MapTypeId.ROADMAP
-		};
-		map = new google.maps.Map(document.getElementById("map"), myOptions);
-		marker = new google.maps.Marker({
-			map: map,
-			position: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude)
-		});
-
-		google.maps.event.addDomListener(window, "resize", function () {
-			map.setCenter(myOptions.center);
-		});
-	}
-</script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&amp;callback=initMap"></script>
+	<script>
+		// Initialize and add the map
+		function initMap() {
+			// The location of Uluru
+			var uluru = {
+				lat: 34.420460,
+				lng: -119.691594
+			};
+			// The map, centered at Uluru
+			var map = new google.maps.Map(
+				document.getElementById('map'), {
+					zoom: 17,
+					center: uluru
+				});
+			// The marker, positioned at Uluru
+			var marker = new google.maps.Marker({
+				position: uluru,
+				map: map
+			});
+		}
+	</script>
+	<!--Load the API from the specified URL
+			* The async attribute allows the browser to render the page while the API loads
+			* The key parameter will contain your own API key (which is not needed for this tutorial)
+			* The callback parameter executes the initMap() function
+			-->
+	<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7wLqVhAnDMuE6tQMYWZpA9znKiiOxe9s&callback=initMap">
+	</script>
