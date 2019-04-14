@@ -1,6 +1,6 @@
 ---
 name: Regular Torta
-image_path: /uploads/placeholder.jpg
+image_path: /uploads/torta.jpg
 product_categories:
 
 - Options

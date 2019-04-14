@@ -2,7 +2,6 @@
 name: Azteca Torta
 image_path: /uploads/placeholder.jpg
 product_categories:
-
 - Specialty Tortas
 
 price: '9.00'

@@ -1,25 +1,26 @@
 ---
-name: Hot Drinks
+name: Iced Coffee
 image_path: /uploads/placeholder.jpg
 product_categories:
-  - Drinks
+  - Coffees
   - Options
   - Sizes
 price: '1.75'
-sku: Hot Drinks
-description_markdown: Our selection of regular hot beverages.
+sku: Iced Coffee
+description_markdown: |
+  Your choice of regular, vanilla, or hazelnut.
 sizes:
   - name: 12oz
     price: '1.75'
   - name: 16oz
     price: '2.00'
+  - name: 20oz
+    price: '2.25'
 options:
-  - name: Coffee
+  - name: Regular
     price:
-  - name: Vanilla Capuccino
+  - name: Vanilla
     price:
-  - name: Hot Chocolate
-    price:
-  - name: Cafe de Olla
+  - name: Hazelnut
     price:
 ---

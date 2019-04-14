@@ -1,0 +1,31 @@
+---
+title: Coffees
+hero: Coffees
+subtitle: Our Range of Coffee Drinks
+permalink: /products/drinks/coffees/
+---
+
+<div class="frontpage_content">
+    {% for product in site.products %}
+    {% if product.product_categories contains "Coffees" %}
+    <div class="content_sep">
+        <h3>{{ product.name }}</h3>
+        <div class="product-description">
+            {{ product.description_markdown | markdownify }}
+        </div>
+        <p>${{ product.price }}</p>
+        <div class="button">
+            {% if product.product_categories contains "Options" and product.product_categories contains "Sizes" %}
+            {% include snipcart-button-both.html product=page %}
+            {% elsif product.product_categories contains "Options" %}
+            {% include snipcart-button-options.html product=page %}
+            {% elsif product.product_categories contains "Sizes" %}
+            {% include snipcart-button-sizes.html product=page %}
+            {% else %}
+            {% include snipcart-button.html product=page %}
+            {% endif %}
+        </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>

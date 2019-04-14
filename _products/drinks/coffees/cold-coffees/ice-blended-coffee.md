@@ -2,7 +2,7 @@
 name: Ice Blended Coffee
 image_path: /uploads/placeholder.jpg
 product_categories:
-  - Drinks
+  - Coffees
   - Options
   - Sizes
 price: '4.25'
