@@ -55,9 +55,7 @@
 
 .company-name {
     display: inline-block;
-	max-width: 70%;
-	min-width: 70%;
-	min-height: 20%;
+    max-width: 70%;
 	@media #{$mid-point} {
 	    max-width: 30%;
 	}
