@@ -9,28 +9,28 @@ redirect_from:
 ---
 <div class="frontpage_content">
 	<div class="content_sep">
-		<a href="{{ site.url }}products/drinks/coffees/">
+		<a href="{{ site.url }}/products/drinks/coffees/">
 			<img class="editable" src="/uploads/coffee.jpg">
 		</a>
-		<a href="{{ site.url }}products/drinks/coffees">
+		<a href="{{ site.url }}/products/drinks/coffees">
 			<h3>Coffees</h3>
 		</a>
 	</div>
 	<div class="content_sep">
-		<a href="{{ site.url }}products/drinks/hot-drinks/">
+		<a href="{{ site.url }}/products/drinks/hot-drinks/">
 			<img class="editable" src="/uploads/placeholder.jpg">
 		</a>
-		<a href="{{ site.url }}products/drinks/hot-drinks/">
+		<a href="{{ site.url }}/products/drinks/hot-drinks/">
 			<h3>Hot Drinks</h3>
 		</a>
 	</div>
 	{% for product in site.products %}
 	{% if product.product_categories contains "Smoothies" %}
 	<div class="content_sep">
-		<a href="{{ site.url }}products/drinks/smoothies/">
+		<a href="{{ site.url }}/products/drinks/smoothies/">
 			<img class="editable" src="/uploads/smoothie.jpg">
 		</a>
-		<a href="{{ site.url }}products/drinks/smoothies">
+		<a href="{{ site.url }}/products/drinks/smoothies">
 			<h3>{{ product.name }}</h3>
 		</a>
 		<div class="product-description">
@@ -55,10 +55,10 @@ redirect_from:
 	{% for product in site.products %}
 	{% if product.product_categories contains "Licuados" %}
 	<div class="content_sep">
-		<a href="{{ site.url }}products/drinks/licuados/">
+		<a href="{{ site.url }}/products/drinks/licuados/">
 			<img class="editable" src="/uploads/licuados.jpg">
 		</a>
-		<a href="{{ site.url }}products/drinks/licuados">
+		<a href="{{ site.url }}/products/drinks/licuados">
 			<h3>{{ product.name }}</h3>
 		</a>
 		<div class="product-description">
