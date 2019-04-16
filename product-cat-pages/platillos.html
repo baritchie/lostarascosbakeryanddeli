@@ -1,0 +1,31 @@
+---
+title: Platillos
+hero: Platillos
+subtitle: Our Range of Delicious Platillos
+permalink: /products/platillos/
+---
+
+<div class="frontpage_content">
+    {% for product in site.products %}
+    {% if product.product_categories contains "Platillos" %}
+    <div class="content_sep">
+        <h3>{{ product.name }}</h3>
+        <div class="product-description">
+            {{ product.description_markdown | markdownify }}
+        </div>
+        <p>${{ product.price }}</p>
+        <div class="button button_custom">
+            {% if product.product_categories contains "Options" and product.product_categories contains "Sizes" %}
+            {% include snipcart-button-both.html product=product %}
+            {% elsif product.product_categories contains "Options" %}
+            {% include snipcart-button-options.html product=product %}
+            {% elsif product.product_categories contains "Sizes" %}
+            {% include snipcart-button-sizes.html product=product %}
+            {% else %}
+            {% include snipcart-button.html product=product %}
+            {% endif %}
+        </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>

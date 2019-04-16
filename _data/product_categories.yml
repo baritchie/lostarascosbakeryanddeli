@@ -9,6 +9,8 @@
   image_path: "/uploads/drink.jpg"
 - name: Fruit Bowls
   image_path: "/uploads/fruitbowl.jpg"
+- name: Platillos
+  image_path: "/uploads/placeholder.jpg"
 - name: Salads
   image_path: "/uploads/placeholder.jpg"
 - name: Sandwiches
