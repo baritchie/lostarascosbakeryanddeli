@@ -44,6 +44,7 @@
 		width: auto;
 		//flex: 1 1 300px;
 		margin-left: 40px;
+		max-height: 350px;
 	}
 
 	.product-details {
@@ -81,7 +82,7 @@
 		flex: 1 1 300px;
 
 		&:not(:empty) {
-			margin: 35px;
+			padding: 10px;
 		}
 	}
 

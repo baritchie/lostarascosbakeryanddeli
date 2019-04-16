@@ -23,7 +23,9 @@ layout: default
 					    {% elsif page.product_categories contains "Options" %}
 					        {% include snipcart-button-options.html product=page %}
 					    {% elsif page.product_categories contains "Sizes" %}
-					        {% include snipcart-button-sizes.html product=page %}
+							{% include snipcart-button-sizes.html product=page %}
+						{% elsif page.product_categories contains "Licuados" %}
+							{% include snipcart-button-licuado.html product=page %}
 					    {% else %}
 					        {% include snipcart-button.html product=page %}
 					    {% endif %}

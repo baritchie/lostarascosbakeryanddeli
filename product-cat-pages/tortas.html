@@ -5,18 +5,6 @@ subtitle: Fresh and warm tortas!
 permalink: /products/tortas/
 ---
 <div class="frontpage_content">
-	{% for product in site.products %}
-	{% if product.product_categories contains "Tortas" %}
-	<div class="content_sep_2">
-		<a href="{{ site.url }}/products/tortas/regular-torta/">
-			<img class="editable" src="/uploads/torta.jpg">
-		</a>
-		<a href="{{ site.url }}/products/tortas/regular-torta/">
-			<h3>{{ product.name }}</h3>
-		</a>
-	</div>
-	{% endif %}
-	{% endfor %}
 	<div class="content_sep_2">
 		<a href="{{ site.url }}/products/tortas/specialty-tortas/">
 			<img class="editable" src="/uploads/torta.jpg">
@@ -25,4 +13,28 @@ permalink: /products/tortas/
 			<h3>Specialty Tortas</h3>
 		</a>
 	</div>
+	{% for product in site.products %}
+	{% if product.product_categories contains "Tortas" %}
+	<div class="content_sep_2">
+		<a href="{{ site.url }}/products/tortas/regular-torta/">
+			<h3>{{ product.name }}</h3>
+		</a>
+		<div class="product-description">
+			{{ product.description_markdown | markdownify }}
+		</div>
+		<p>${{ product.price }}</p>
+		<div class="button button_custom2">
+			{% if product.product_categories contains "Options" and product.product_categories contains "Sizes" %}
+			{% include snipcart-button-both.html product=product %}
+			{% elsif product.product_categories contains "Options" %}
+			{% include snipcart-button-options.html product=product %}
+			{% elsif product.product_categories contains "Sizes" %}
+			{% include snipcart-button-sizes.html product=product %}
+			{% else %}
+			{% include snipcart-button.html product=product %}
+			{% endif %}
+		</div>
+	</div>
+	{% endif %}
+	{% endfor %}
 </div>

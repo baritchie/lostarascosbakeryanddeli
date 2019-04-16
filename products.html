@@ -4,23 +4,17 @@ hero: Our Foods and Drinks
 subtitle: 'Order Now, Pick-Up in Store!'
 ---
 
-<div class="content" id="products">
-	<section>
-		<div class="container">
-			<ul class="product-list">
-				{% for category in site.data.product_categories %}
-				    <li>
-				        <a href="{{ site.url }}/products/{{ category.name | slugify }}">
-				            <img class="fadeload" src="{{ category.image_path }}" />
-				        </a>
-				        <div class="product-details">
-				            <h4>
-				                <a href="{{ site.url }}/products/{{ category.name | slugify }}">{{ category.name }}</a>
-				            </h4>
-				        </div>
-				    </li>
-				{% endfor %}
-			</ul>
+<div class="frontpage_content">
+	{% for category in site.data.product_categories %}
+    <div class="content_sep">
+		<a href="{{ site.url }}/products/{{ category.name | slugify }}">
+			<img class="fadeload" src="{{ category.image_path }}" />
+		</a>
+		<div class="product-details">
+			<h2>
+				<a href="{{ site.url }}/products/{{ category.name | slugify }}">{{ category.name }}</a>
+			</h2>
 		</div>
-	</section>
+    </div>
+    {% endfor %}
 </div>

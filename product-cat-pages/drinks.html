@@ -8,31 +8,80 @@ redirect_from:
 - /products/drinks/cold-coffees
 - /products/drinks/hot-drinks
 ---
-<ul class="product-list">
-	<li>
+<div class="frontpage_content">
+	<div class="content_sep">
 		<a href="{{ site.url }}/products/drinks/coffees/">
-			<img class="fadeload" src="/uploads/coffee.jpg" />
+			<img class="editable" src="/uploads/coffee.jpg">
 		</a>
-		<div class="product-details">
-			<h4>
-				<a href="{{ site.url }}/products/drinks/coffees">Coffees</a>
-			</h4>
+		<a href="{{ site.url }}/products/drinks/coffees">
+			<h3>Coffees</h3>
+		</a>
+	</div>
+	<div class="content_sep">
+		<a href="{{ site.url }}/products/drinks/hot-drinks/">
+			<img class="editable" src="/uploads/placeholder.jpg">
+		</a>
+		<a href="{{ site.url }}/products/drinks/hot-drinks/">
+			<h3>Hot Drinks</h3>
+		</a>
+	</div>
+	{% for product in site.products %}
+	{% if product.product_categories contains "Smoothies" %}
+	<div class="content_sep">
+		<a href="{{ site.url }}/products/drinks/smoothies/">
+			<img class="editable" src="/uploads/smoothie.jpg">
+		</a>
+		<a href="{{ site.url }}/products/drinks/smoothies">
+			<h3>{{ product.name }}</h3>
+		</a>
+		<div class="product-description">
+			<p>Select product for full description of flavors.</p>
 		</div>
-	</li>
+		<p style="padding-bottom: 20px;">${{ product.price }}</p>
+		<div class="button">
+			{% if product.product_categories contains "Options" and product.product_categories contains "Sizes" %}
+			{% include snipcart-button-both.html product=product %}
+			{% elsif product.product_categories contains "Options" %}
+			{% include snipcart-button-options.html product=product %}
+			{% elsif product.product_categories contains "Sizes" %}
+			{% include snipcart-button-sizes.html product=product %}
+			{% else %}
+			{% include snipcart-button.html product=product %}
+			{% endif %}
+		</div>
+	</div>
+	{% endif %}
+	{% endfor %}
+
+	{% for product in site.products %}
+	{% if product.product_categories contains "Licuados" %}
+	<div class="content_sep">
+		<a href="{{ site.url }}/products/drinks/licuados/">
+			<img class="editable" src="/uploads/licuados.jpg">
+		</a>
+		<a href="{{ site.url }}/products/drinks/licuados">
+			<h3>{{ product.name }}</h3>
+		</a>
+		<div class="product-description">
+			<p>Select product for full description of flavors.</p>
+		</div>
+		<p style="padding-bottom: 20px;">${{ product.price }}</p>
+		<div class="button">
+			{% include snipcart-button-licuado.html product=product %}
+		</div>
+	</div>
+	{% endif %}
+	{% endfor %}
 	{% for product in site.products %}
 	{% if product.product_categories contains "Drinks" %}
-	<li>
+	<div class="content_sep">
 		<a href="{{ product.url }}">
 			<img class="editable" src="{{ product.image_path }}">
 		</a>
-		<div class="product-details">
-			<h4><a href="{{ product.url }}">{{ product.name }}</a></h4>
-			<div class="product-description">
-				{{ product.description_markdown | truncate: 45 | markdownify }}
-			</div>
-			<p>${{ product.price }} and Up</p>
-		</div>
-	</li>
+		<a href="{{ product.url }}">
+			<h3>{{ product.name }}</h3>
+		</a>
+	</div>
 	{% endif %}
 	{% endfor %}
-</ul>
+</div>

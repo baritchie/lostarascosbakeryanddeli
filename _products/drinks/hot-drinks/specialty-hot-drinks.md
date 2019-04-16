@@ -2,12 +2,12 @@
 name: Specialty Hot Drinks
 image_path: /uploads/placeholder.jpg
 product_categories:
-  - Drinks
+  - Hot Drinks
   - Options
   - Sizes
 price: '2.25'
 sku: Specialty Hot Drinks
-description_markdown:
+description_markdown: A choice between Arroz con Leche, Avena de Leche, and Champurrado.
 sizes:
   - name: 12oz
     price: '2.25'

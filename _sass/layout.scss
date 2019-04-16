@@ -159,12 +159,20 @@
 	background-color: rgb(68, 68, 68);
 }
 @media #{$mid-point} {
-.frontpage_content .button {
+.frontpage_content .button_custom {
 	width: 75%;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, 100%);
+	bottom: 0;
+}
+.frontpage_content .button_custom2 {
+	width: 75%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 70%);
 	bottom: 0;
 }
 }

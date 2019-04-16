@@ -1,0 +1,34 @@
+---
+title: Sandwiches
+hero: Sandwiches
+subtitle: Our Range of Delicious Sandwiches
+permalink: /products/sandwiches/
+---
+
+<div class="frontpage_content">
+    {% for product in site.products %}
+    {% if product.product_categories contains "Sandwiches" %}
+    <div class="content_sep">
+        <h3>{{ product.name }}</h3>
+        <div class="product-description">
+            {{ product.description_markdown | markdownify }}
+        </div>
+        <p>${{ product.price }}</p>
+        <div class="button button_custom">
+            {% include snipcart-button-sandwich.html product=product %}
+        </div>
+    </div>
+    {% elsif product.product_categories contains "SpecialSandwiches" %}
+    <div class="content_sep">
+        <h3>{{ product.name }}</h3>
+        <div class="product-description">
+            {{ product.description_markdown | markdownify }}
+        </div>
+        <p>${{ product.price }}</p>
+        <div class="button button_custom">
+            {% include snipcart-button-specialsandwich.html product=product %}
+        </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>
