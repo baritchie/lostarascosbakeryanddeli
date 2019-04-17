@@ -84,18 +84,9 @@
 		};
 	</script>
 	{% if site.snipcart_key %}
-	<script defer id="snipcart" data-api-key="{{ site.snipcart_key }}" data-cart-custom1-name="Comments"
+	<script id="snipcart" data-api-key="{{ site.snipcart_key }}" data-cart-custom1-name="Comments"
 		src="https://cdn.snipcart.com/scripts/2.0/snipcart.js"></script>
 	{% endif %}
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126992870-2"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-
-	gtag('config', 'UA-126992870-2');
-	</script>
 </body>
 
 </html>
