@@ -12,7 +12,7 @@
 - name: Platillos
   image_path: "/uploads/placeholder.jpg"
 - name: Salads
-  image_path: "/uploads/salads.jpg"
+  image_path: "/uploads/salad.jpg"
 - name: Sandwiches
   image_path: "/uploads/placeholder.jpg"
 - name: Tacos
