@@ -10,7 +10,11 @@ redirect_from:
 <div class="frontpage_content">
 	<div class="content_sep">
 		<a href="{{ site.url }}/products/drinks/coffees/">
-			<img class="editable" src="/uploads/coffee.jpg">
+			<picture>
+				<source srcset="/uploads/coffee.webp" type="image/webp">
+				<source srcset="/uploads/coffee.jpg" type="image/jpeg">
+				<img src="/uploads/coffee.jpg" alt="Alt Text!">
+			</picture>
 		</a>
 		<a href="{{ site.url }}/products/drinks/coffees">
 			<h3>Coffees</h3>
@@ -18,7 +22,11 @@ redirect_from:
 	</div>
 	<div class="content_sep">
 		<a href="{{ site.url }}/products/drinks/hot-drinks/">
-			<img class="editable" src="/uploads/placeholder.jpg">
+			<picture>
+				<source srcset="/uploads/placeholder.webp" type="image/webp">
+				<source srcset="/uploads/placeholder.jpg" type="image/jpeg">
+				<img src="/uploads/placeholder.jpg" alt="Alt Text!">
+			</picture>
 		</a>
 		<a href="{{ site.url }}/products/drinks/hot-drinks/">
 			<h3>Hot Drinks</h3>
@@ -28,7 +36,11 @@ redirect_from:
 	{% if product.product_categories contains "Smoothies" %}
 	<div class="content_sep">
 		<a href="{{ site.url }}/products/drinks/smoothies/">
-			<img class="editable" src="/uploads/smoothie.jpg">
+			<picture>
+				<source srcset="/uploads/smoothie.webp" type="image/webp">
+				<source srcset="/uploads/smoothie.jpg" type="image/jpeg">
+				<img src="/uploads/smoothie.jpg" alt="Alt Text!">
+			</picture>
 		</a>
 		<a href="{{ site.url }}/products/drinks/smoothies">
 			<h3>{{ product.name }}</h3>
@@ -56,7 +68,11 @@ redirect_from:
 	{% if product.product_categories contains "Licuados" %}
 	<div class="content_sep">
 		<a href="{{ site.url }}/products/drinks/licuados/">
-			<img class="editable" src="/uploads/licuados.jpg">
+			<picture>
+				<source srcset="/uploads/licuados.webp" type="image/webp">
+				<source srcset="/uploads/licuados.jpg" type="image/jpeg">
+				<img src="/uploads/licuados.jpg" alt="Alt Text!">
+			</picture>
 		</a>
 		<a href="{{ site.url }}/products/drinks/licuados">
 			<h3>{{ product.name }}</h3>
@@ -75,7 +91,11 @@ redirect_from:
 	{% if product.product_categories contains "Drinks" %}
 	<div class="content_sep">
 		<a href="{{ product.url }}">
-			<img class="editable" src="{{ product.image_path }}">
+			<picture>
+				<source srcset="{{ product.image_path_webp }}" type="image/webp">
+				<source srcset="{{ product.image_path }}" type="image/jpeg">
+				<img src="{{ product.image_path }}" alt="Alt Text!">
+			</picture>
 		</a>
 		<a href="{{ product.url }}">
 			<h3>{{ product.name }}</h3>
