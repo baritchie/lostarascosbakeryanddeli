@@ -2,6 +2,7 @@
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
+  font-display: fallback;
   src: url('../fonts/MaterialIcons-Regular.eot'); /* For IE6-8 */
   src: local('Material Icons'),
     local('MaterialIcons-Regular'),
@@ -39,6 +40,7 @@
 	font-family: 'Lobster';
 	font-style: normal;
 	font-weight: 400;
+	font-display: fallback;
 	src: url('../fonts/lobster-v21-latin-regular.eot');
 	/* IE9 Compat Modes */
 	src: local('Lobster Regular'), local('Lobster-Regular'),
@@ -59,6 +61,7 @@
 	font-family: 'Lato';
 	font-style: normal;
 	font-weight: 400;
+	font-display: fallback;
 	src: url('../fonts/lato-v15-latin-regular.eot');
 	/* IE9 Compat Modes */
 	src: local('Lato Regular'), local('Lato-Regular'),
@@ -79,6 +82,7 @@
 	font-family: 'Lato';
 	font-style: italic;
 	font-weight: 400;
+	font-display: fallback;
 	src: url('../fonts/lato-v15-latin-italic.eot');
 	/* IE9 Compat Modes */
 	src: local('Lato Italic'), local('Lato-Italic'),
@@ -99,6 +103,7 @@
 	font-family: 'Lato';
 	font-style: normal;
 	font-weight: 700;
+	font-display: fallback;
 	src: url('../fonts/lato-v15-latin-700.eot');
 	/* IE9 Compat Modes */
 	src: local('Lato Bold'), local('Lato-Bold'),
@@ -119,6 +124,7 @@
 	font-family: 'Lato';
 	font-style: italic;
 	font-weight: 700;
+	font-display: fallback;
 	src: url('../fonts/lato-v15-latin-700italic.eot');
 	/* IE9 Compat Modes */
 	src: local('Lato Bold Italic'), local('Lato-BoldItalic'),
