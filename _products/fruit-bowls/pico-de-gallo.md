@@ -6,7 +6,7 @@ product_categories:
 - Fruit Bowls
 price: '4.75'
 sku: Pico de Gallo
-description_markdown: This is some Pico de Gallo
+description_markdown: 
 sizes:
 - name: Small
   price: '4.75'

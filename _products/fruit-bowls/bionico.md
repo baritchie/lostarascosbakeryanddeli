@@ -6,7 +6,7 @@ product_categories:
 - Fruit Bowls
 price: '5.50'
 sku: Bionico
-description_markdown: Bionico Stuff
+description_markdown:
 sizes:
 - name: Small
   price: '5.50'
