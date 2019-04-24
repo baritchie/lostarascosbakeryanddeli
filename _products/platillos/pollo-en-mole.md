@@ -4,6 +4,6 @@ image_path: "/uploads/placeholder.jpg"
 product_categories:
 - Platillos
 price: '12.95'
-sku: Chocoflan
+sku: Pollo en Mole
 description_markdown:
 ---

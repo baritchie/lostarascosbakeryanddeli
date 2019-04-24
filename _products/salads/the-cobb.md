@@ -6,5 +6,5 @@ description_markdown: >-
 product_categories:
   - Salads
 price: '10.50'
-sku: The Cobb
+sku: The Cobb Salad
 ---

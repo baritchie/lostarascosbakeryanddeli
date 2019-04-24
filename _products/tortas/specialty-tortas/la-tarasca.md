@@ -6,6 +6,7 @@ product_categories:
 - Specialty Tortas
 
 price: '8.50'
+sku: La Tarasca Torta
 description_markdown: >-
     Delicious torta with ham, turkey, and roast beef.
 ---

@@ -5,7 +5,7 @@ product_categories:
   - Options
   - Burritos
 price: '8.50'
-sku: Tacos
+sku: Burritos
 description_markdown: |
     Served with beans, rice, cheese, pico de gallo, and sour cream. Your choice of filling.
 options:

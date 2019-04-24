@@ -5,7 +5,7 @@ product_categories:
   - Options
   - Sandwiches
 price: '8.00'
-sku: Tacos
+sku: Regular Sandwich
 description_markdown: |
     Your choice of whole wheat or sourdough.
 options:

@@ -5,7 +5,7 @@ product_categories:
 - Specialty Tortas
 
 price: '9.00'
-sku: AztecaTorta
+sku: Azteca Torta
 description_markdown: >-
     Delicious torta, prepared with beef shank, chicken, ham, and rice.
 ---
