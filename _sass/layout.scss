@@ -124,6 +124,17 @@
 	margin-bottom: 20px;
 }
 
+.frontpage_content .frontpage_mobileonly {
+	display: inline-block;
+	@media #{$mid-point} {
+		display: none;		
+	}
+	text-align: center;
+	padding: 40px;
+	flex: 1 1 300px;
+	font-size: 1.5em;
+	border-top: solid 2px #000;
+}
 .frontpage_content .content_sep {
     flex: 1 1 300px;
 	text-align: center;
