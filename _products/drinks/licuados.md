@@ -5,6 +5,7 @@ product_categories:
   - Licuados
   - Options
   - Soysub
+  - Sizes
 price: '4.75'
 sku: Licuados
 description_markdown: |
@@ -33,4 +34,11 @@ soysub:
     price: '0.00'
   - name: Substitute Soy
     price: '5.00'
+sizes:
+  - name: 12oz
+    price: '4.75'
+  - name: 16oz 
+    price: '5.00'
+  - name: 20oz 
+    price: '5.25'
 ---

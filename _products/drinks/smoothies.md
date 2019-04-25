@@ -26,6 +26,8 @@ sizes:
     price: '4.50'
   - name: 16oz
     price: '4.75'
+  - name: 20oz
+    price: '5.00'
 options:
   - name: Tropical Mango
   - name: Tropical Papaya

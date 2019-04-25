@@ -4,12 +4,17 @@ image_path: /uploads/placeholder.jpg
 product_categories:
   - Aguas Frescas
   - Options
+  - Sizes
 price: '2.75'
 sku: Aguas Frescas
 description_markdown: Freshly made flavored waters.&nbsp;
 sizes:
-  - name:
-    price:
+  - name: 12oz
+    price: '2.75'
+  - name: 16oz 
+    price: '3.00'
+  - name: 20oz 
+    price: '3.25'
 options:
   - name: Horchata
     price:
