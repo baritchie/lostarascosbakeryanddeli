@@ -2,7 +2,7 @@
 name: Aguas Frescas
 image_path: /uploads/placeholder.jpg
 product_categories:
-  - Drinks
+  - Aguas Frescas
   - Options
 price: '2.75'
 sku: Aguas Frescas

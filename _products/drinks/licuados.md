@@ -3,6 +3,8 @@ name: Licuados
 image_path: /uploads/licuados.jpg
 product_categories:
   - Licuados
+  - Options
+  - Soysub
 price: '4.75'
 sku: Licuados
 description_markdown: |

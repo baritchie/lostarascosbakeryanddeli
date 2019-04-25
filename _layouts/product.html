@@ -19,13 +19,13 @@ layout: default
 					
 					<div class="button">
 					    {% if page.product_categories contains "Options" and page.product_categories contains "Sizes" %} 
-					        {% include snipcart-button-both.html product=product %}
+					        {% include snipcart-button-both.html product=page %}
 					    {% elsif page.product_categories contains "Options" %}
-					        {% include snipcart-button-options.html product=product %}
+					        {% include snipcart-button-options.html product=page %}
 					    {% elsif page.product_categories contains "Sizes" %}
-							{% include snipcart-button-sizes.html product=product %}
+							{% include snipcart-button-sizes.html product=page %}
 						{% elsif page.product_categories contains "Licuados" %}
-							{% include snipcart-button-licuado.html product=product %}
+							{% include snipcart-button-licuado.html product=page %}
 					    {% else %}
 					        {% include snipcart-button.html product=page %}
 					    {% endif %}
