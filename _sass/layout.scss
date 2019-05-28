@@ -139,10 +139,11 @@
 .frontpage_content .content_sep {
 	display: flex;
 	flex: 1 1 300px;
-	justify-content: space-between;
 	flex-direction: column;
+	justify-content: space-evenly;
 	text-align: center;
 	padding: 20px;
+	margin-bottom: 50px;
 	position: relative;
 }
 
@@ -153,13 +154,14 @@
 	flex-direction: column;
 	text-align: center;
 	padding: 20px;
+	margin-bottom: 50px;
 	position: relative;
 }
 
 .frontpage_content .content_sep_2 {
 	display: flex;
 	flex: 1 1 500px;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	flex-direction: column;
 	text-align: center;
 	margin-bottom: 50px;
