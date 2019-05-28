@@ -135,19 +135,32 @@
 	font-size: 1.5em;
 	border-top: solid 2px #000;
 }
+
 .frontpage_content .content_sep {
 	display: flex;
 	flex: 1 1 300px;
 	justify-content: space-between;
 	flex-direction: column;
 	text-align: center;
-	margin-bottom: 50px;
-	margin-top: 20px;
+	padding: 20px;
+	position: relative;
+}
+
+.frontpage_content .content_sep4 {
+	display: flex;
+	flex: 1 1 200px;
+	justify-content: space-between;
+	flex-direction: column;
+	text-align: center;
+	padding: 20px;
 	position: relative;
 }
 
 .frontpage_content .content_sep_2 {
+	display: flex;
 	flex: 1 1 500px;
+	justify-content: space-between;
+	flex-direction: column;
 	text-align: center;
 	margin-bottom: 50px;
 	margin-top: 20px;
