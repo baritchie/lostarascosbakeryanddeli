@@ -136,7 +136,10 @@
 	border-top: solid 2px #000;
 }
 .frontpage_content .content_sep {
-    flex: 1 1 300px;
+	display: flex;
+	flex: 1 1 300px;
+	justify-content: space-between;
+	flex-direction: column;
 	text-align: center;
 	margin-bottom: 50px;
 	margin-top: 20px;
