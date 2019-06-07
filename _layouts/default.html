@@ -8,7 +8,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Lobster" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="{{ site.baseurl }}/css/screen.css" rel="stylesheet" />
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 	{% seo %}
 	<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png" />
 </head>
@@ -72,7 +71,14 @@
 			<p class="copyright">All Rights Reserved &copy; {{ site.time | date: '%Y' }} {{ site.title }}.</p>
 		</div>
 	</footer>
-	<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="NDAzMzM2MDctODk3MS00ZmE5LThiYTctMDg2ODExZmEwMTg2NjM2NzY1NjA2NzUyNzU5NjE2"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script id="snipcart" 
+		data-api-key="NDAzMzM2MDctODk3MS00ZmE5LThiYTctMDg2ODExZmEwMTg2NjM2NzY1NjA2NzUyNzU5NjE2"
+		data-cart-custom1-name="Check the box to show that you understand your order will take 45 minutes to complete."
+		data-cart-custom1-options="true|false"
+		data-cart-custom1-required="true"
+		src="https://cdn.snipcart.com/scripts/2.0/snipcart.js">
+	</script>
 	<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
 	<script>
 		document.getElementById("open-nav").onclick = function () {
