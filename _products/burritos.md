@@ -1,6 +1,6 @@
 ---
 name: Burritos
-image_path: "/uploads/placeholder.jpg"
+image_path: "/uploads/burrito.jpg"
 product_categories:
   - Options
   - Burritos
