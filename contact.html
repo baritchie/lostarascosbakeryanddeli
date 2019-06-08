@@ -20,13 +20,16 @@ hero: Get in touch
 	<form action="https://formspree.io/contact@lostarascosbakeryanddeli.com" method="post" class="contact-form">
 		<h3>Send us a message</h3>
 		<label for="name">Full Name</label>
-		<input type="text" name="name" id="name" placeholder="Enter your name...">
+		<input type="text" name="name" id="name" placeholder="Enter your name..." required>
 
 		<label for="email">Email Address</label>
 		<input type="email" name="email" id="email" placeholder="Enter your email..." required inputmode="email">
 
+		<label for="phone">Phone Number</label>
+		<input type="tel" name="phone" id="phone" placeholder="Enter your phone number..." reqired inputmode="tel">
+
 		<label for="message">Message</label>
-		<textarea name="message" id="message" placeholder="Enter your message..."></textarea>
+		<textarea name="message" id="message" placeholder="Enter your message..." required></textarea>
 
 		<input type="text" name="_gotcha" style="display: none;">
 
