@@ -26,10 +26,10 @@ hero: Get in touch
 		<input type="email" name="email" id="email" placeholder="Enter your email..." required inputmode="email">
 
 		<label for="phone">Phone Number</label>
-		<input type="tel" name="phone" id="phone" placeholder="Enter your phone number..." reqired inputmode="tel">
+		<input type="tel" name="phone" pattern="^[0-9-+s()]*$" id="phone" placeholder="Enter your phone number..." reqired inputmode="tel">
 
 		<label for="message">Message</label>
-		<textarea name="message" pattern="^[0-9-+s()]*$" id="message" placeholder="Enter your message..." required></textarea>
+		<textarea name="message" id="message" placeholder="Enter your message..." required></textarea>
 
 		<input type="text" name="_gotcha" style="display: none;">
 
