@@ -2,7 +2,7 @@
 	{% for product in products %}
 		<div class="style" data-item-id="{{ forloop.index }}" {% unless forloop.first %}style="display: none"{% endunless %}>
 			<a href="{{ product.url }}">
-				<img class="product-image-single" src="{{ product.image_path }}">
+				<img src="{{ product.image_path }}">
 			</a>
 		</div>
 	{% endfor %}
