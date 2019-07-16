@@ -2,7 +2,7 @@
   link: /
   new_window: false
   highlight: false
-- name: Order
+- name: Menu
   link: /products/
   new_window: false
   highlight: true
