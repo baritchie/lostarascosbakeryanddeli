@@ -125,61 +125,55 @@
 }
 
 .frontpage_content {
-    display: flex;
+	display: flex;
 	flex-wrap: wrap;
 	margin-bottom: 20px;
-}
-
-.frontpage_content .frontpage_mobileonly {
-	display: inline-block;
-	@media #{$mid-point} {
-		display: none;		
+	img {
+		max-width: 300px;
+		max-height: 300px;
 	}
-	text-align: center;
-	padding: 40px;
-	flex: 1 1 300px;
-	font-size: 1.5em;
-	border-top: solid 2px #000;
-}
-
-.frontpage_content .content_sep {
-	display: flex;
-	flex: 1 1 300px;
-	flex-direction: column;
-	text-align: center;
-	padding: 20px;
-	margin-bottom: 50px;
-	position: relative;
-}
-
-.frontpage_content .content_sep4 {
-	display: flex;
-	flex: 1 1 200px;
-	justify-content: space-between;
-	flex-direction: column;
-	text-align: center;
-	padding: 20px;
-	margin-bottom: 50px;
-	position: relative;
-}
-
-.frontpage_content .content_sep_2 {
-	display: flex;
-	flex: 1 1 500px;
-	flex-direction: column;
-	text-align: center;
-	margin-bottom: 50px;
-	margin-top: 20px;
-	position: relative;
-}
-
-.frontpage_content img {
-	max-width: 300px;
-	max-height: 300px;
-}
-
-.frontpage_content h2 {
-	color: $brand-color;
+	h2 {
+		color: $brand-color;
+	}
+	.frontpage_mobileonly {
+		display: inline-block;
+		@media #{$mid-point} {
+			display: none;		
+		}
+		text-align: center;
+		padding: 40px;
+		flex: 1 1 300px;
+		font-size: 1.5em;
+		border-top: solid 2px #000;
+	}
+	.content_sep {
+		display: flex;
+		flex: 1 1 300px;
+		flex-direction: column;
+		text-align: center;
+		padding: 20px;
+		margin-bottom: 50px;
+		position: relative;
+	}
+	.content_sep_2 {
+		display: flex;
+		flex: 1 1 500px;
+		flex-direction: column;
+		text-align: center;
+		margin-bottom: 50px;
+		margin-top: 20px;
+		position: relative;
+	}
+	.content_sep4 {
+		display: flex;
+		flex: 1 1 200px;
+		justify-content: space-between;
+		flex-direction: column;
+		text-align: center;
+		padding: 20px;
+		margin-bottom: 50px;
+		position: relative;
+	}
 }
 
 .frontpage_link {
@@ -189,8 +183,16 @@
 }
 
 .frontpage_link:hover {
-	background-color: rgb(68, 68, 68);
+	background-color: #f28500;
+
+	h2 {
+		color: white;
+	}
+	a {
+		text-decoration: none;
+	}
 }
+
 @media #{$mid-point} {
 .frontpage_content .button_custom {
 	width: 75%;

@@ -139,24 +139,27 @@
 		list-style-type: none;
 	}
 }
-.listproduct li {
-	display: flex;
-	flex-direction: column;
-}
-.listproduct h3 {
-	text-align: center;
-	color: #333;
-}
-.listproduct p {
-	text-align: center;
-	font-size: 1.2rem;
-	font-weight: bold;
-}
-.listproduct .button {
-	display: flex;
-	align-items: baseline;
-	justify-content: center;
-}
-.listproduct .product-description {
-	flex-grow: 1;
+
+.listproduct {
+	li {
+		display: flex;
+		flex-direction: column;
+	}
+	h3 {
+		text-align: center;
+		color: #333;
+	}
+	p {
+		text-align: center;
+		font-size: 1.2rem;
+		font-weight: bold;
+	}
+	.button {
+		display: flex;
+		align-items: baseline;
+		justify-content: center;
+	}
+	.product-description {
+		flex-grow: 1;
+	}
 }
