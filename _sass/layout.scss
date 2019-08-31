@@ -143,14 +143,9 @@
 		display: inline-block;
 		text-align: center;
 		padding: 40px;
-		flex: 1 1 300px;
+		flex: 1 1 auto;	
 		font-size: 1.5em;
 		border-top: solid 2px #000;
-		@media #{$mid-point} {
-			flex: 1 1 100%;		
-			border-top: none;
-			padding: 0;
-		}
 	}
 	.content_sep {
 		display: flex;
@@ -159,7 +154,9 @@
 		text-align: center;
 		position: relative;
 		padding: 20px;
-		margin: 0 10px 0 10px;
+		@media #{$mid-point} {
+			margin: 0 10px 20px 10px;
+		}
 	}
 	.content_sep_2 {
 		display: flex;
