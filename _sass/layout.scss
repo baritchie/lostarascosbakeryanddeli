@@ -129,31 +129,37 @@
 	flex-wrap: wrap;
 	margin-bottom: 20px;
 	img {
-		max-width: 300px;
-		max-height: 300px;
+		max-width: 100%;
+		max-height: 100%;
+		@media #{$mid-point} {
+			max-width: 300px;
+			max-height: 300px;
+		}
 	}
 	h2 {
 		color: $brand-color;
 	}
 	.frontpage_mobileonly {
 		display: inline-block;
-		@media #{$mid-point} {
-			display: none;		
-		}
 		text-align: center;
 		padding: 40px;
 		flex: 1 1 300px;
 		font-size: 1.5em;
 		border-top: solid 2px #000;
+		@media #{$mid-point} {
+			flex: 1 1 100%;		
+			border-top: none;
+			padding: 0;
+		}
 	}
 	.content_sep {
 		display: flex;
-		flex: 1 1 300px;
+		flex: 10 10 auto;
 		flex-direction: column;
 		text-align: center;
-		padding: 20px;
-		margin-bottom: 50px;
 		position: relative;
+		padding: 20px;
+		margin: 0 10px 0 10px;
 	}
 	.content_sep_2 {
 		display: flex;
@@ -179,7 +185,6 @@
 .frontpage_link {
 	border-radius: 5px;
 	transition: .5s ease;
-	margin: 20px;
 }
 
 .frontpage_link:hover {
