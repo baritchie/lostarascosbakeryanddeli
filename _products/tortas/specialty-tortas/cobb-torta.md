@@ -6,5 +6,5 @@ product_categories:
 price: '9.00'
 sku: Cobb Torta
 description_markdown: >-
-    Delicious torta with bacon, avocado, tomato, romaine, bleu cheese crumles, and red wine vinaigrette.
+    Delicious torta with bacon, avocado, tomato, romaine, bleu cheese crumbles, and red wine vinaigrette.
 ---

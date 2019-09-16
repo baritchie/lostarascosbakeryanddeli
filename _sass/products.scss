@@ -46,14 +46,15 @@
 	.styles {
 		width: auto;
 		//flex: 1 1 300px;
-		margin-left: 40px;
 		max-height: 350px;
 	}
 
 	.product-details {
 		flex: 2 1 500px;
 		text-align: left;
-		margin-left: 40px;
+		@media #{$mid-point} {
+			margin-left: 40px;
+		}
 
 		h4 {
 			color: $brand-color;

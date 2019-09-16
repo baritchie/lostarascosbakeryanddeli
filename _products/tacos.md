@@ -7,7 +7,7 @@ product_categories:
 price: '8.50'
 sku: Tacos
 description_markdown: |
-    Served with beans and rice. Topped with cabbage, pice de gallo, and cheese.
+    Served with beans and rice. Topped with cabbage, pico de gallo, and cheese.
 
     Fish tacos are served with green salad.
 options:
