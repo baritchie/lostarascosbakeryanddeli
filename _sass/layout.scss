@@ -149,7 +149,7 @@
 	}
 	.content_sep {
 		display: flex;
-		flex: 10 10 auto;
+		flex: 10 10 300px;
 		flex-direction: column;
 		text-align: center;
 		position: relative;
@@ -185,7 +185,7 @@
 }
 
 .frontpage_link:hover {
-	background-color: #f28500;
+	background-color: $brand-color;
 
 	h2 {
 		color: white;

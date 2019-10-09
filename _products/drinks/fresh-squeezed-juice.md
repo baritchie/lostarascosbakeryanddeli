@@ -8,7 +8,9 @@ product_categories:
 price: '4.50'
 sku: Fresh Squeezed Juice
 description_markdown: |
-  Choose your juice type and size.
+  Choose from beet, carrot, celery, orange, or one of our specialty fresh squeezed juice:
+
+  **The Mix** ➔ Mix of carrot and orange juice.
 
   **El Jugo Verde** ➔ Fresh squeezed juice of celery, pineapple, cucumber, cactus, parsley, and orange juice.
   
@@ -29,7 +31,7 @@ options:
     price:
   - name: Orange
     price:
-  - name: Carrot/Orange
+  - name: The Mix
     price:
   - name: El Vampiro
     price: '4.75'

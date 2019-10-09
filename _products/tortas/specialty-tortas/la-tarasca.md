@@ -8,5 +8,5 @@ product_categories:
 price: '8.50'
 sku: La Tarasca Torta
 description_markdown: >-
-    Delicious torta with ham, turkey, and roast beef.
+    Delicious torta with ham, turkey, roast beef, beans, bacon, and egg.
 ---

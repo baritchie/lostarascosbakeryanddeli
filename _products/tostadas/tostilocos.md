@@ -6,5 +6,5 @@ product_categories:
 price: '5.00'
 sku: Tostilocos
 description_markdown: |
-    Tosilocos with traditional toppings.
+    Tostilocos with traditional toppings.
 ---
