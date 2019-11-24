@@ -7,7 +7,7 @@
   new_window: false
   highlight: true
 - name: Our Story
-  link: /about/
+  link: /ourstory/
   new_window: false
   highlight: false
 - name: Contact
