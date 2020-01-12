@@ -5,6 +5,6 @@ description_markdown: >-
   Salad with chicken, onions, cheese, and spinach greens.
 product_categories:
   - Salads
-price: '10.25'
+price: '11.25'
 sku: Chicken Spinach Salad
 ---
