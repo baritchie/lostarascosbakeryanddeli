@@ -4,12 +4,12 @@ image_path: "/uploads/placeholder.jpg"
 product_categories:
 - Sizes
 - Fruit Bowls
-price: '5.50'
+price: '6.00'
 sku: Bionico
 description_markdown:
 sizes:
 - name: Small
-  price: '5.50'
+  price: '6.00'
 - name: Large
-  price: '6.75'
+  price: '7.00'
 ---
