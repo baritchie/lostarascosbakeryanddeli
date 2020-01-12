@@ -5,6 +5,6 @@ description_markdown: >-
     Salad topped with chicken with a Mexican twist.
 product_categories:
   - Salads
-price: '10.50'
+price: '11.50'
 sku: Mexican Chicken Salad
 ---
