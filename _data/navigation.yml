@@ -2,10 +2,6 @@
   link: /
   new_window: false
   highlight: false
-- name: Menu
-  link: /products/
-  new_window: false
-  highlight: true
 - name: Our Story
   link: /ourstory/
   new_window: false
