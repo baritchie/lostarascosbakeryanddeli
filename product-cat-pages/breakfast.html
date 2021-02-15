@@ -14,7 +14,7 @@ permalink: /products/breakfast/
 			{{ product.description_markdown | markdownify }}
 		</div>
 		<p>${{ product.price }}</p>
-		<div class="button button_custom">
+		<!-- <div class="button button_custom">
 			{% if product.product_categories contains "Options" and product.product_categories contains "Sizes" %}
 			{% include snipcart-button-both.html product=product %}
 			{% elsif product.product_categories contains "Options" %}
@@ -24,7 +24,7 @@ permalink: /products/breakfast/
 			{% else %}
 			{% include snipcart-button.html product=product %}
 			{% endif %}
-		</div>
+		</div> -->
 	</div>
 	{% endif %}
 	{% endfor %}
