@@ -16,20 +16,6 @@ layout: default
 				<div class="product-details" id="add">
 					<h3>{{ page.name }}</h3>
 					{{ page.description_markdown | markdownify }}
-					
-					<div class="button">
-					    {% if page.product_categories contains "Options" and page.product_categories contains "Sizes" %} 
-					        {% include snipcart-button-both.html product=page %}
-					    {% elsif page.product_categories contains "Options" %}
-					        {% include snipcart-button-options.html product=page %}
-					    {% elsif page.product_categories contains "Sizes" %}
-							{% include snipcart-button-sizes.html product=page %}
-						{% elsif page.product_categories contains "Licuados" %}
-							{% include snipcart-button-licuado.html product=page %}
-					    {% else %}
-					        {% include snipcart-button.html product=page %}
-					    {% endif %}
-					</div>
 				</div>
 			</div>
 		</div>
