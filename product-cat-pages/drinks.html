@@ -50,8 +50,8 @@ permalink: /products/drinks/
 			<p>Select product for full description of flavors.</p>
 		</div>
 		<p style="padding-bottom: 20px;">${{ product.price }}</p>
-		<!-- <div class="button">
-			{% if product.product_categories contains "Options" and product.product_categories contains "Sizes" %}
+		<div class="button">
+			{% comment %}{% if product.product_categories contains "Options" and product.product_categories contains "Sizes" %}
 			{% include snipcart-button-both.html product=product %}
 			{% elsif product.product_categories contains "Options" %}
 			{% include snipcart-button-options.html product=product %}
@@ -59,8 +59,8 @@ permalink: /products/drinks/
 			{% include snipcart-button-sizes.html product=product %}
 			{% else %}
 			{% include snipcart-button.html product=product %}
-			{% endif %}
-		</div> -->
+			{% endif %}{% endcomment %}
+		</div>
 	</div>
 	{% endif %}
 	{% endfor %}
@@ -79,8 +79,8 @@ permalink: /products/drinks/
 			<p>Select product for full description of flavors.</p>
 		</div>
 		<p style="padding-bottom: 20px;">${{ product.price }}</p>
-		<!-- <div class="button">
-			{% if product.product_categories contains "Options" and product.product_categories contains "Sizes" %}
+		<div class="button">
+			{% comment %}{% if product.product_categories contains "Options" and product.product_categories contains "Sizes" %}
 			{% include snipcart-button-both.html product=product %}
 			{% elsif product.product_categories contains "Options" %}
 			{% include snipcart-button-options.html product=product %}
@@ -88,8 +88,8 @@ permalink: /products/drinks/
 			{% include snipcart-button-sizes.html product=product %}
 			{% else %}
 			{% include snipcart-button.html product=product %}
-			{% endif %}
-		</div> -->
+			{% endif %}{% endcomment %}
+		</div>
 	</div>
 	{% endif %}
 	{% endfor %}
@@ -109,9 +109,9 @@ permalink: /products/drinks/
 			<p>Select product for full description of flavors.</p>
 		</div>
 		<p style="padding-bottom: 20px;">${{ product.price }}</p>
-		<!-- <div class="button">
-			{% include snipcart-button-licuado.html product=product %}
-		</div> -->
+		<div class="button">
+			{% comment %}{% include snipcart-button-licuado.html product=product %}{% endcomment %}
+		</div>
 	</div>
 	{% endif %}
 	{% endfor %}
