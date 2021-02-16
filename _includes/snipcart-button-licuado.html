@@ -39,19 +39,19 @@
 {% endfor %}
 {% assign size_name = size_name | remove_first: '|' %}
 
-<button class="snipcart-add-item"
-	data-item-name="{{ include.product.name }}"
-	data-item-id="{{ include.product.sku }}"
-	data-item-image="{{ include.product.image_path }}"
-	data-item-description="{{ include.product.description }}"
-	data-item-url="{{ include.product.url }}"
-	data-item-price="{{ include.product.price }}"
-    data-item-custom1-name="Options"
-    data-item-custom1-options="{{ option_name }}"
-    data-item-custom2-name="Substitute Soy Milk"
-    data-item-custom2-options="{{ soy_sub }}"
-    data-item-custom3-name="Size"
-    data-item-custom3-options="{{ size_name }}"
-    data-item-custom4-name="Comments">
-	{% if include.text %}{{ include.text }}{% else %}Choose Options & Size{% endif %}
-</button>
+<!-- <button class="snipcart-add-item" -->
+	<!-- data-item-name="{{ include.product.name }}" -->
+	<!-- data-item-id="{{ include.product.sku }}" -->
+	<!-- data-item-image="{{ include.product.image_path }}" -->
+	<!-- data-item-description="{{ include.product.description }}" -->
+	<!-- data-item-url="{{ include.product.url }}" -->
+	<!-- data-item-price="{{ include.product.price }}" -->
+    <!-- data-item-custom1-name="Options" -->
+    <!-- data-item-custom1-options="{{ option_name }}" -->
+    <!-- data-item-custom2-name="Substitute Soy Milk" -->
+    <!-- data-item-custom2-options="{{ soy_sub }}" -->
+    <!-- data-item-custom3-name="Size" -->
+    <!-- data-item-custom3-options="{{ size_name }}" -->
+    <!-- data-item-custom4-name="Comments"> -->
+	<!-- {% if include.text %}{{ include.text }}{% else %}Choose Options & Size{% endif %} -->
+<!-- </button> -->
