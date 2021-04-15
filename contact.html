@@ -17,10 +17,12 @@ hero: Get in touch
 
 
 <div class="contact-box">
-	<form action="https://formspree.io/contact@lostarascosbakeryanddeli.com" method="post" class="contact-form">
-		<h3>Send us a message</h3>
+	<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form" name="contact">
+    
+    <input type="text" name="_gotcha" style="display: none;">
+		
 		<label for="name">Full Name</label>
-		<input type="text" name="name" id="name" placeholder="Enter your name..." required>
+		<input type="text" name="name" id="name" placeholder="Enter your name..." />
 
 		<label for="email">Email Address</label>
 		<input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" id="email" placeholder="Enter your email..." required inputmode="email">
@@ -29,11 +31,11 @@ hero: Get in touch
 		<input type="tel" name="phone" pattern="^[0-9-+s()]*$" id="phone" placeholder="Enter your phone number..." reqired inputmode="tel">
 
 		<label for="message">Message</label>
-		<textarea name="message" id="message" placeholder="Enter your message..." required></textarea>
-
-		<input type="text" name="_gotcha" style="display: none;">
-
-		<input type="submit" value="Send Message">
+		<textarea name="message" id="message" placeholder="Enter your message..."></textarea>
+		
+		<input type="submit" value="Send Message" />
+		
+		<input type="hidden" name="_to" value="ben@benarr.com">
 	</form>
 
 	<div class="contact-details">
